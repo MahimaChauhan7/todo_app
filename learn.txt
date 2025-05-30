@@ -1,0 +1,26 @@
+/*const myLogger = function (req, res, next) {
+  console.log('LOGGED')
+  next()
+}
+// The next() calls the second middleware to continue, K, this middleware is done. Let’s go to the next one.
+
+
+// We setup the router handler (Function) for get request to the root URL
+// Middleware can change the response and request object 
+// To load the Middleware function, we use the app.use() 
+// The order of middleware loading is important: middleware functions that are loaded first are also executed first.
+const requestTime = function (req, res, next) {
+  req.requestTime = Date.now()
+  next()
+}
+// add a property called requestTime to the request object. 
+// We use req.body because in express we access the data that the users gives us like inputs and json and we excess this using the req.body in express 
+// Route Handler:
+//Registered for specific HTTP methods (GET, POST, etc.) with app.METHOD(PATH, handler).
+// Directly sends a response back to the client (like res.send(), res.json()).
+// OVERiding the Express ID --> It means the modify the default behaviour of the express API  
+
+
+
+
+*/
